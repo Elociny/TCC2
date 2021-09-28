@@ -1,0 +1,222 @@
+body {
+    margin: 0px;
+}
+
+body::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+	background-color: #d9d9d9;
+}
+
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #3C6E71;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #609FA3;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    background-color: #3C6E71;
+
+    display: flex;
+    flex-direction: row;
+    padding: 15px 30px 10px 30px;
+    margin-bottom: 50px;
+    color: #d9d9d9;
+}
+
+.nome {
+    font-weight: bolder;
+    font-size: 27px;
+
+    margin-right: 300px;
+}
+
+.conjunto {
+    display: flex;
+    flex-direction: row;
+    margin-left: 320px;
+}
+
+.pesquisar input {
+    padding: 7px 5px 7px 200px;
+
+    background-color: #609FA3;
+    border: none;
+    border-radius: 15px;
+
+    text-align: left;
+    margin-right: 15px;
+}
+
+.pesquisar input:hover {
+    cursor: text;
+}
+
+.favorito {
+    margin-right: 15px;
+}
+
+.sacola {
+    margin-right: 15px;
+}
+
+
+.categoria {
+    display: flex;
+    flex-direction: column;
+
+    margin: 25px 25px;
+}
+
+.cate-titulo {
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 27px;
+    color: #353535;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: row;
+
+    color: #353535;
+}
+
+.op1 {
+    margin-right: 15px;
+
+    font-size: 18px;
+    color: #353535;
+}
+
+.faixa3 {
+    margin: 25px 25px;
+}
+
+.f3-titulo {
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 27px;
+    color: #353535;
+}
+
+.f3-coisas {
+    display: flex;
+    flex-direction: row;
+}
+
+.f3-texto {
+    margin-top: 7px;
+    color: #353535;
+}
+
+.f3-quadrado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin: 15px 20px;
+}
+
+.faixa4 {
+    margin: 25px 25px;
+}
+
+.f4-titulo {
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 27px;
+    color: #353535;
+}
+
+.f4-imagem {
+    text-align: center;
+}
+
+.f4-imagem img {
+    text-align: center;
+    width: 1220;
+    height: 500;
+}
+
+.faixa5 {
+    margin: 25px 25px;
+}
+
+.f5-titulo {
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 27px;
+    color: #353535;
+}
+
+.f5-coisas {
+    display: flex;
+    flex-direction: row;
+}
+
+.f5-texto {
+    margin-top: 7px;
+
+    color: #353535;
+}
+
+.f5-quadrado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin: 15px 20px;
+}
+
+.roda-pe {
+    background-color: #3C6E71;
+    color: #d9d9d9;
+
+    margin-top: 100px;
+    padding: 30px 0px;
+}
+
+.pt1 {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+}
+
+.clum-titulo {
+    font-size: 18px;
+    font-weight: bolder;
+
+    margin-bottom: 10px;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    margin: 0px 20px 30px 0px;
+}
+
+.pt2 {
+    display: flex;
+    flex-direction: row-reverse;
+
+    font-size: 27px;
+    font-weight: bolder;
+
+    margin-right: 18px;
+    margin-top: 30px;
+}
