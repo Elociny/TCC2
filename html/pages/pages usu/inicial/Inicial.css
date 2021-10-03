@@ -56,6 +56,10 @@ body::-webkit-scrollbar-thumb
 
     text-align: left;
     margin-right: 15px;
+
+    background-image: url(../../../assets/images/lupa.svg);
+	background-repeat: no-repeat;
+    background-position: 270px;
 }
 
 .pesquisar input::placeholder {
@@ -73,7 +77,6 @@ body::-webkit-scrollbar-thumb
 .sacola {
     margin-right: 15px;
 }
-
 
 .categoria {
     display: flex;
