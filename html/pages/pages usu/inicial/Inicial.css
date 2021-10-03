@@ -58,6 +58,10 @@ body::-webkit-scrollbar-thumb
     margin-right: 15px;
 }
 
+.pesquisar input::placeholder {
+    color: #d9d9d9;
+}
+
 .pesquisar input:hover {
     cursor: text;
 }
