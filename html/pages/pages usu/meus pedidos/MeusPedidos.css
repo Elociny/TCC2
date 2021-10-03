@@ -1,0 +1,231 @@
+body {
+    margin: 0px;
+}
+
+body::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+	background-color: #d9d9d9;
+}
+
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #3C6E71;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #609FA3;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    background-color: #3C6E71;
+
+    display: flex;
+    flex-direction: row;
+    padding: 15px 30px 10px 30px;
+    color: #d9d9d9;
+}
+
+.nome {
+    font-weight: bolder;
+    font-size: 27px;
+
+    margin-right: 230px;
+}
+
+.conjunto {
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+}
+
+.pesquisar input {
+    padding: 7px 5px 7px 200px;
+
+    background-color: #609FA3;
+    border: none;
+    border-radius: 15px;
+
+    text-align: left;
+    margin-right: 15px;
+}
+
+.pesquisar input:hover {
+    cursor: text;
+}
+
+.favorito {
+    margin-right: 15px;
+}
+
+.sacola {
+    margin-right: 15px;
+}
+
+.faixa-1 {
+    margin: 25px 25px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.f1-quadrado1 {
+    margin-right: 25px;
+}
+
+.f1-titulo {
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 27px;
+    color: #353535;
+}
+
+.meusDados {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px 20px;
+
+    border-radius: 4px;
+
+    background-color: rgba(60, 110, 113, 0.31);
+}
+
+.aglomerado1 {
+    display: flex;
+    flex-direction: row;
+
+    color: #353535;
+}
+
+.A1-nome {
+    margin-left: 80px;
+}
+
+.sair button {
+    margin-top: 65px;
+
+    color: #353535;
+
+    background-color: rgba(60, 110, 113, 0);
+    border: none;
+    font-weight: bolder;
+}
+
+.sair button:hover {
+    cursor: pointer;
+}
+
+.mConta {
+    font-weight: bolder;
+    font-size: 20px;
+
+    margin: 15px 0px;
+
+    color: #353535;
+}
+
+.mPedidos {
+    font-weight: bolder;
+    font-size: 20px;
+
+    margin-bottom: 15px;
+
+    color: #353535;
+}
+
+.ListaDesejos {
+    font-weight: bolder;
+    font-size: 20px;
+
+    color: #353535;
+}
+
+.f1-quadrado2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.f1-pedidos {
+    padding: 5px 7px;
+}
+
+.f1-atualizacao {
+    margin: 20px 0px  30px 0px;
+
+    font-weight: bolder;
+    font-size: 27px;
+
+    color: #353535;
+}
+
+.f1-caixa {
+    display: flex;
+    flex-direction: row;
+
+    margin: 30px 0px;
+}
+
+.f1-img img {
+    height: 200px;
+    width: 200px
+}
+
+.f1-nome {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.f1-dataEntrega {
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.roda-pe {
+    background-color: #3C6E71;
+    color: #d9d9d9;
+
+    margin-top: 50px;
+    padding: 30px 0px;
+}
+
+.pt1 {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+}
+
+.clum-titulo {
+    font-size: 18px;
+    font-weight: bolder;
+
+    margin-bottom: 10px;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    margin: 0px 20px 30px 0px;
+}
+
+.pt2 {
+    display: flex;
+    flex-direction: row-reverse;
+
+    font-size: 27px;
+    font-weight: bolder;
+
+    margin-right: 18px;
+    margin-top: 30px;
+}
