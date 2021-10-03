@@ -107,7 +107,14 @@ body::-webkit-scrollbar-thumb
 }
 
 .A1-nome {
-    margin-left: 80px;
+    margin-left: 10px;
+}
+
+.f1-nome {
+    font-size: 27px;
+    font-weight: bolder;
+
+    color: #353535;
 }
 
 .sair button {
@@ -149,6 +156,10 @@ body::-webkit-scrollbar-thumb
     color: #353535;
 }
 
+.f1-quadrado2 {
+    margin-left: 50px;
+}
+
 .minhaConta {
     padding: 20px 20px;
 
@@ -172,14 +183,14 @@ body::-webkit-scrollbar-thumb
 }
 
 .inp input {
-    padding: 7px 200px;
+    padding: 7px 250px;
 }
 
 .inp input:hover {
     cursor: text;
 }
 
-.img {
+.img img {
     margin-left: 10px;
 }
 
@@ -195,7 +206,7 @@ body::-webkit-scrollbar-thumb
 }
 
 .inp2 input {
-    padding: 7px 150px;
+    padding: 7px 200px;
 }
 
 .inp2 input:hover {

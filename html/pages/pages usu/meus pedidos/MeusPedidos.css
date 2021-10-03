@@ -106,7 +106,14 @@ body::-webkit-scrollbar-thumb
 }
 
 .A1-nome {
-    margin-left: 80px;
+    margin-left: 10px;
+}
+
+.f1-nome {
+    font-size: 27px;
+    font-weight: bolder;
+
+    color: #353535;
 }
 
 .sair button {
@@ -151,6 +158,8 @@ body::-webkit-scrollbar-thumb
 .f1-quadrado2 {
     display: flex;
     flex-direction: column;
+
+    margin-left: 50px;
 }
 
 .f1-pedidos {
