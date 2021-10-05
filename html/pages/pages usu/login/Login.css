@@ -111,6 +111,10 @@ body::-webkit-scrollbar-thumb
     border-radius: 15px;
 }
 
+.email input::placeholder {
+    color: #d9d9d9;
+}
+
 .email input:hover {
     cursor: text;
 }
@@ -122,6 +126,10 @@ body::-webkit-scrollbar-thumb
     background-color: #609FA3;
     border: none;
     border-radius: 15px;
+}
+
+.senha input::placeholder {
+    color: #d9d9d9;
 }
 
 .senha input:hover {
