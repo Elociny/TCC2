@@ -41,9 +41,28 @@ body::-webkit-scrollbar-thumb
     color: #d9d9d9;
     font-size: 40px;
     font-weight: bolder;
+
+    margin-bottom: 80px;
 }
 
-.botao button {
+.botao1 {
+    background-color: #353535;
+    border: none;
+    border-radius: 10px;
+
+    padding: 10px 15px;
+    margin: 20px 0px;
+
+    font-size: 30px;
+    font-weight: bolder; 
+    color: #d9d9d9;
+}
+
+.botao1:hover {
+    cursor: pointer;
+}
+
+.botao {
     background-color: #d9d9d9;
     border: none;
     border-radius: 10px;
@@ -54,6 +73,10 @@ body::-webkit-scrollbar-thumb
     font-size: 30px;
     font-weight: bolder; 
     color: #353535;
+}
+
+.botao:hover {
+    cursor: pointer;
 }
 
 .direita {
