@@ -33,6 +33,8 @@ body::-webkit-scrollbar-thumb
     text-align: center;
 
     padding: 78px 50px;
+
+    position: fixed;
 }
 
 .f1-titulo {
@@ -77,3 +79,143 @@ body::-webkit-scrollbar-thumb
     cursor: pointer;
 }
 
+.direita {
+    border: 1px solid;
+    border-color: #353535;
+    border-radius: 4px;
+
+    margin: 25px 25px;
+    padding: 25px 25px;
+
+    margin-left: 365px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.d-titulo {
+    font-size: 30px;
+    font-weight: bolder; 
+    color: #353535;
+
+    margin-bottom: 15px;
+}
+
+.lado {
+    display: flex;
+    flex-direction: row;
+}
+
+.clum-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.clum-2 {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 15px;
+}
+
+.d-subTitulo {
+    font-size: 18px;
+    font-weight: bolder; 
+    color: #353535;
+
+    margin: 15px 0px;
+}
+
+.inp input {
+    padding: 5px 5px 5px 100px;
+    margin-bottom: 25px;
+
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #353535;
+}
+
+.inp input:hover {
+    cursor: text;
+}
+
+.d-img {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 25px;
+}
+
+.d-imagemProduto {
+    border: 1px solid;
+    border-color: #353535;
+    border-radius: 4px;
+
+    padding: 8px 8px;
+
+    text-align: center;
+}
+
+.d-imagemProduto img {
+    width: 170px;
+    height: auto;
+}
+
+.d-imagemProduto img:hover {
+    cursor: pointer;
+}
+
+.d-botao1 {
+    text-align: center;
+}
+
+.d-botao1 button {
+    background-color: #3C6E71;
+    
+    color: #d9d9d9;
+    font-size: 18px;
+    font-weight: bolder;
+
+    border-radius: 4px;
+    border: none;
+
+    padding: 5px 5px;
+    margin: 25px 0px;
+}
+
+.d-botao1 button:hover {
+    cursor: pointer;
+}
+
+.d-botao2 {
+    text-align: center;
+}
+
+.d-botao2 button {
+    background-color: #353535;
+    
+    color: #d9d9d9;
+    font-size: 18px;
+    font-weight: bolder;
+
+    border-radius: 4px;
+    border: none;
+
+    padding: 5px 9px;
+}
+
+.d-botao2 button:hover {
+    cursor: pointer;
+}
+
+.textos {
+    border: 1px solid;
+    border-color: #353535;
+    border-radius: 4px;
+
+    padding: 8px 8px;
+
+    font-size: 12px;
+    font-weight: bolder; 
+    color: #353535;
+}
