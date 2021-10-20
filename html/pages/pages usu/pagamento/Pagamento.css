@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb
     font-weight: bolder;
     font-size: 27px;
 
-    margin-right: 230px;
+    margin-right: 220px;
 }
 
 .conjunto {
@@ -78,8 +78,10 @@ body::-webkit-scrollbar-thumb
 }
 
 .esqueda {
-    margin: 25px 25px;
+    margin: 25px 60px 0px 0px;
     position: fixed;
+
+    right: 0;
 }
 
 .faixa-1 {
@@ -128,7 +130,7 @@ body::-webkit-scrollbar-thumb
 }
 
 .input input {
-    padding: 5px 488px 5px 4px;
+    padding: 5px 450px 5px 5px;
 
     border-radius: 4px;
     border-width: 1px;
@@ -143,11 +145,11 @@ body::-webkit-scrollbar-thumb
 }
 
 .dois input {
-    padding: 5px 150px 5px 4px;
+    padding: 5px 132px 5px 4px;
 
     border-radius: 4px;
     border-width: 1px;
-
+    
     outline: none;
 }
 
@@ -162,7 +164,7 @@ body::-webkit-scrollbar-thumb
 
 .inp input {
     margin-right: 15px;
-    padding: 5px 150px 5px 4px;
+    padding: 5px 132px 5px 5px;
 
     border-radius: 4px;
     border-width: 1px;
@@ -171,7 +173,7 @@ body::-webkit-scrollbar-thumb
 }
 
 .um2 input{
-    padding: 5px 488px 5px 4px;
+    padding: 5px 450px 5px 5px;
 
     border-radius: 4px;
     border-width: 1px;
@@ -180,7 +182,7 @@ body::-webkit-scrollbar-thumb
 }
 
 .direita {
-    margin: 25px 0px 25px 600px;
+    margin: 25px 0px 25px 25px;
 }
 
 .preco {
@@ -217,7 +219,8 @@ body::-webkit-scrollbar-thumb
     display: flex;
     flex-direction: row;
 
-    margin-left: 150px;
+    margin-left: 130px;
+    align-items: center;
 }
 
 .botao2 {
@@ -260,7 +263,7 @@ body::-webkit-scrollbar-thumb
 }
 
 .INPUT input {
-    padding: 5px 488px 5px 4px;
+    padding: 5px 450px 5px 5px;
 
     border-radius: 4px;
     border-width: 1px;
@@ -298,7 +301,7 @@ body::-webkit-scrollbar-thumb
 }
 
 .INPUT3 input {
-    padding: 5px 90px 5px 4px;
+    padding: 5px 57px 5px 4px;
 
     border-radius: 4px;
     border-width: 1px;
@@ -310,11 +313,28 @@ body::-webkit-scrollbar-thumb
     cursor: text;
 }
 
+.boleto {
+    background-color: #3C6E71;
+    color: #d9d9d9;
+
+    border-radius: 5px;
+
+    padding: 10px 10px;
+    margin: 25px 0px;
+}
+
+.titulo3 {
+    font-size: 19px;
+    font-weight: bolder;
+
+    margin-bottom: 20px;
+}
+
 .botao-reverse {
     display: flex;
     flex-direction: row-reverse;
 
-    margin: 15px 0px;
+    margin: 30px 0px 0px 0px;
 }
 
 .botao-reverse button {
@@ -331,4 +351,7 @@ body::-webkit-scrollbar-thumb
 
 .botao-reverse button:hover {
     cursor: pointer;
+
+    background-color: #609FA3;
+    color: #353535;
 }
