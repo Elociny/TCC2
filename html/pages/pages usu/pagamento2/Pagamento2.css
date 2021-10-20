@@ -128,11 +128,13 @@ body::-webkit-scrollbar-thumb
 }
 
 .input input {
-    padding: 5px 488px 5px 0px;
+    padding: 5px 488px 5px 4px;
 
     border-radius: 4px;
     border-width: 1px;
     border-color: #353535;
+
+    outline: none;
 }
 
 .dois {
@@ -141,10 +143,12 @@ body::-webkit-scrollbar-thumb
 }
 
 .dois input {
-    padding: 5px 150px 5px 0px;
+    padding: 5px 150px 5px 4px;
 
     border-radius: 4px;
     border-width: 1px;
+
+    outline: none;
 }
 
 .Sobrenome {
@@ -158,17 +162,21 @@ body::-webkit-scrollbar-thumb
 
 .inp input {
     margin-right: 15px;
-    padding: 5px 150px 5px 0px;
+    padding: 5px 150px 5px 4px;
 
     border-radius: 4px;
     border-width: 1px;
+
+    outline: none;
 }
 
 .um2 input{
-    padding: 5px 488px 5px 0px;
+    padding: 5px 488px 5px 4px;
 
     border-radius: 4px;
     border-width: 1px;
+
+    outline: none;
 }
 
 .direita {
@@ -252,11 +260,12 @@ body::-webkit-scrollbar-thumb
 }
 
 .INPUT input {
-    padding: 5px 0px;
-    padding-right: 250px;
+    padding: 5px 488px 5px 4px;
 
     border-radius: 4px;
     border-width: 1px;
+
+    outline: none;
 }
 
 .INPUT input:hover {
@@ -275,10 +284,12 @@ body::-webkit-scrollbar-thumb
 }
 
 .INPUT2 input {
-    padding: 5px 0px;
+    padding: 5px 4px;
 
     border-radius: 4px;
     border-width: 1px;
+
+    outline: none;
 }
 
 .r-direita {
@@ -287,11 +298,12 @@ body::-webkit-scrollbar-thumb
 }
 
 .INPUT3 input {
-    padding: 5px 0px;
-    padding-right: 100px;
+    padding: 5px 90px 5px 4px;
 
     border-radius: 4px;
     border-width: 1px;
+
+    outline: none;
 }
 
 .INPUT3 input:hover {
